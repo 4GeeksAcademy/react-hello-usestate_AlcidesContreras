@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(92, 101, 204);
 }
 
 .container{
@@ -15,6 +15,7 @@ body{
     background-color: rgb(48, 47, 47);
     margin: 50px auto;
     position: relative;
+    box-shadow: -15px 5px 0 black;
 }
 
 .container_add{
@@ -52,6 +53,8 @@ body{
     position: absolute;
     top: 10px;
     left: 45px;
+    border: 3px solid black;
+    box-shadow: 2px 5px 10px black;
 }
 
 
@@ -69,22 +72,22 @@ body{
 
 #red{
     background-color: red;
-    box-shadow: 10px 10px 80px rgb(251, 18, 18);
+    box-shadow: -3px -5px 30px 10px rgb(251, 18, 18);
 }
 
 #yellow{
     background-color: yellow;
-    box-shadow: 10px 10px 80px rgb(234, 238, 7);
+    box-shadow: -3px -5px 30px 10px rgb(234, 238, 7);
 }
 
 #green{
     background-color: green;
-    box-shadow: 10px 10px 80px rgb(34, 227, 53);
+    box-shadow: -3px -5px 30px 10px #22e335;
 }
 
 #purple{
-    background-color: rgb(125, 33, 129);
-    box-shadow: 10px 10px 80px rgb(199, 34, 205);
+    background-color: rgb(199, 34, 205);
+    box-shadow: -3px -5px 30px 10px rgb(199, 34, 205);
 }
 
 .buttons{
@@ -102,5 +105,4 @@ body{
     color: rgb(38, 39, 39);
     font-size: 15px;
     font-weight: bold;
-    
 }
